@@ -1,0 +1,74 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.microclouddisks.dao.mainDao">
+
+    <select id="folderQuery" resultType="folder">
+        select * from folder
+        where usermail=#{usermail} and parent=#{parent}
+    </select>
+
+    <select id="folderQueryById" resultType="folder">
+        select * from folder
+        where folderid=#{folderid}
+    </select>
+
+    <select id="folderQueryByidone" resultType="String">
+        select filepath from folder
+        where folderid=#{folderid}
+    </select>
+
+    <insert id="folderInsert" parameterType="folder">
+        insert into
+        folder(folderid,foldername,usermail,updatetime,sizes,filetype,parent,num,filepath,icon)
+        value(#{folderid},#{foldername},#{usermail},#{updatetime},#{sizes},#{filetype},#{parent},#{num},#{filepath},#{icon})
+    </insert>
+
+    <delete id="deleteFolder" parameterType="folder">
+        delete from folder
+        where usermail=#{usermail} and foldername=#{foldername} and parent=#{parent}
+    </delete>
+
+    <select id="usedSpaceQuery">
+        select sizes from folder
+        where usermail=#{usermail}
+    </select>
+
+    <update id="usedSpaceUpdate">
+        update diskuserdetailed
+        set userusedspace=#{spacesize}
+        where usermail=#{usermail}
+    </update>
+
+    <insert id="trashInsert" parameterType="folder">
+        insert into
+        folder(folderid,foldername,usermail,updatetime,sizes,filetype,parent,num,filepath,icon)
+        trash(folderid,foldername,usermail,updatetime,sizes,filetype,parent,num,filepath,icon)
+        value(#{folderid},#{foldername},#{usermail},#{updatetime},#{sizes},#{filetype},#{parent},#{num},#{filepath},#{icon})
+    </insert>
+
+    <delete id="deleteFileById">
+        delete from folder
+        where folderid=#{folderid}
+    </delete>
+
+    <select id="likeQueryByFileName" resultType="folder">
+        select * from folder
+        where usermail=#{usermail}
+        <if test="#{foldername !=null}">
+            and foldername like "%"#{foldername}"%"
+        </if>
+    </select>
+
+    <insert id="logInsert" parameterType="logs">
+        insert into
+        logs(logid,logtype,logtime,logcontent,usermail,sizes,filename,fileicon)
+        value (#{logid},#{logtype},#{logtime},#{logcontent},#{usermail},#{sizes},#{filename},#{fileicon})
+    </insert>
+
+    <select id="logsQuery" resultType="logs">
+        select * from logs
+        where usermail=#{usermail}
+    </select>
+
+</mapper>

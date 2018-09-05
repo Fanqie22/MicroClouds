@@ -1,0 +1,311 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main-head {
+    margin: 0px 0px;
+    width: 100%;
+    height: 72px;
+    background-color: #eff4f8;
+}
+
+/*头部的左边的部分*/
+
+.main-head-left {
+    float: left;
+    width: 770px;
+    height: 72px;
+    /*border: 1px solid lightgreen;*/
+}
+
+.main-head-left-img {
+    float: left;
+    margin: 15px 15px;
+    width: 168px;
+    height: 40px;
+    /*border: 1px solid lightgreen;*/
+}
+
+.main-head-left-img-logo {
+    float: left;
+    margin: 2px 2px;
+    /*background-color: darkcyan;*/
+}
+
+.main-head-left-img-name {
+    float: right;
+    margin: 0px 12px;
+    /*background-color: darkgreen;*/
+}
+
+.main-head-left-a {
+    float: right;
+    margin: 0px 20px;
+    width: 528px;
+    height: 60px;
+    /*border: 1px solid lightgreen;*/
+}
+
+.main-head-left-a a:hover {
+    color: green;
+}
+
+.main-head-left-a ul li {
+    list-style-type: none;
+    display: inline-block;
+    /*border: 1px solid gainsboro;*/
+    width: 74px;
+    height: 35px;
+    margin-right: -12px;
+    text-align: center;
+    line-height: 67px;
+    font-size: 14px;
+}
+
+.main-head-left-a ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "宋体";
+    color: black;
+}
+
+.main-head-right {
+    float: right;
+    width: 484px;
+    height: 72px;
+    /*border: 1px solid lightgreen;*/
+}
+
+.main-head-right-user {
+    float: left;
+    width: 385px;
+    height: 60px;
+    /*border: 1px solid lightgreen;*/
+}
+
+.main-head-right-user-left {
+    float: left;
+    width: 222px;
+    height: 60px;
+    /*border: 1px solid darkblue;*/
+}
+
+.main-head-right-user-left-iocn {
+    float: left;
+    width: 54px;
+    height: 60px;
+    /*background-color: aquamarine;*/
+}
+
+.main-head-right-user-left-username {
+    float: right;
+    width: 166px;
+    height: 60px;
+    /*background-color: aquamarine;*/
+}
+
+.main-head-right-user-right {
+    float: right;
+    width: 160px;
+    height: 60px;
+    /*background-color: darkseagreen;*/
+}
+
+.main-head-right-user-right a:hover {
+    color: green;
+}
+
+.main-head-right-user ul li {
+    list-style-type: none;
+    display: inline-block;
+    /*border: 1px solid gainsboro;*/
+
+    width: 76px;
+    height: 35px;
+    margin-right: -30px;
+    text-align: center;
+    line-height: 66px;
+    font-size: 14px;
+}
+
+.main-head-right-user ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "宋体";
+    color: lightseagreen;
+
+}
+
+.main-head-right-right {
+    float: right;
+    width: 95px;
+    height: 60px;
+    /*border: 1px solid lightgreen;*/
+}
+
+.main-right-head {
+    float: right;
+    width: 1175px;
+    height: 62px;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+
+.main-right-head-top {
+    width: 100%;
+    height: 54px;
+    /*border: 1px solid darkcyan;*/
+}
+
+.main-right-head-top-left {
+    float: left;
+    height: 54px;
+    width: 780px;
+    /*border: 1px solid darkcyan;*/
+}
+
+.main-right-head-top-right {
+    float: right;
+    height: 54px;
+    width: 375px;
+    /*border: 1px solid darkcyan;*/
+}
+
+.main-right-head-bottom {
+    width: 100%;
+    height: 34px;
+    /*border: 1px solid darkcyan;*/
+}
+
+.main-right-head-bottom-filename {
+    float: left;
+    width: 720px;
+    height: 32px;
+    font-family: 宋体;
+    font-size: 15px;
+    text-align: left;
+    line-height: 38px;
+    margin: 2px 0px;
+    /*background-color: blueviolet;*/
+}
+
+.main-right-head-bottom-filename-left {
+    float: left;
+    font-family: 宋体;
+    font-size: 15px;
+    text-align: left;
+    line-height: 38px;
+    margin: 2px 13px;
+    /*background-color: darkturquoise;*/
+}
+
+.main-right-head-bottom-filename-right {
+    float: right;
+    font-family: 宋体;
+    font-size: 15px;
+    text-align: left;
+    line-height: 38px;
+    margin: 2px 13px;
+    /*background-color: tomato;*/
+}
+
+.main-right-head-bottom-filetime {
+    float: right;
+    width: 340px;
+    height: 30px;
+    font-family: 宋体;
+    font-size: 15px;
+    text-align: left;
+    line-height: 38px;
+    margin: 2px 0px;
+    /*background-color: aqua;*/
+}
+
+.main-right-head-bottom-filetime-left {
+    float: left;
+    font-family: 宋体;
+    font-size: 15px;
+    text-align: left;
+}
+
+.main-right-head-bottom-filetime-right {
+    float: right;
+    font-family: 宋体;
+    font-size: 15px;
+    text-align: left;
+}
+
+.main-right-main {
+    float: right;
+    width: 1175px;
+    height: 480px;
+    overflow-y: auto;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+
+/*左边部分*/
+
+.main-left {
+    float: left;
+    margin: 0px 0px;
+    width: 190px;
+    width: 160px;
+    height: 508px;
+    background-color: #eff4f8;
+    /*background-color: darkturquoise;*/
+}
+
+.main-left-tag {
+    margin: -16px 0px;
+}
+
+.main-left-bottom {
+    width: 161px;
+    height: 90px;
+    /*margin-left: 10px;*/
+    /*margin-top: 2px;*/
+    margin-right: 10px;
+    background-color: #eff4f8;
+}
+
+.main-left-tag ul li {
+    list-style-type: none;
+    display: block;
+    /*border: 1px solid gainsboro;*/
+    width: 190px;
+    width: 163px;
+    height: 43px;
+    margin-left: -42px;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 14px;
+}
+
+.main-left-tag ul li.active {
+    color: gainsboro;
+    background-color: #e3e8eb;
+}
+
+.main-left-tag ul li:hover {
+    background-color: #e3e8eb;
+}
+
+.main-left-tag ul li:active {
+    color: lightskyblue;
+    background-color: #e3e8eb;
+}
+
+.main-left-tag ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "微软雅黑 Light";
+    color: black;
+}
+
+.show {
+    display: block;
+    /*background-color: darkgreen;*/
+}
