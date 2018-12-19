@@ -1,8 +1,8 @@
 # MicroClouds
 
- 版本正在升级 ! 将启用Spring Boot + Shiro + Redis , 2018年12月19日开始更改,预计很快就完成更改 , 此次改动幅度较大, 所以新建了一个仓库 , 可以到此
+ 版本正在升级 ! 将启用Spring Boot + Shiro + Redis , 2018年12月19日开始更改,预计很快就完成更改 , 此次改动幅度较大, 所以新建了一个仓库 , 
  
- 处查看每次的提交 : https://github.com/Fanqie22/microclouds-spring-boot
+ 可以到此处查看每次的提交 : https://github.com/Fanqie22/microclouds-spring-boot
  
  此次更新将带来 : 
  
