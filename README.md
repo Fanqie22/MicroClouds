@@ -12,7 +12,7 @@
 
 3. 启用Redis 缓存数据 .
 
-4. 抛弃臃肿的 JSP , 使用 Thymeleaf 渲染试图 , Thymeleaf可完全替代 JSP .
+4. 抛弃臃肿的 JSP , 使用 Thymeleaf 渲染视图 , Thymeleaf可完全替代 JSP .
 
 5. 更好更高效的代码, 遵循阿里巴巴Java开发手册规范代码 , 这将会大幅修改代码, 注重注释, 尽量多写有质量的代码和注释 .
 
