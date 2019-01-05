@@ -41,4 +41,4 @@ Windows桌面版下载器地址 :  https://github.com/Fanqie22/Microclouds-Downl
 
 1.非常感谢GitHub的样式,登录注册页面引用了GitHub : https://github.com 的样式 .
 
-2.非常感谢medialoot, 首页的布局样式引用了 medialoot : https://medialoot.com/item/html5-admin-template/ 的样式.
+2.非常感谢medialoot, 首页的布局样式引用了 medialoot : https://medialoot.com/的样式.
