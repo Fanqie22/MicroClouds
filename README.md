@@ -22,6 +22,8 @@
 
 4. 使用MongoDB GridFS 存储用户上传的文件 ,更高效合理 .
 
+5. 启用 Netty 快速开发高性能、高可靠性的 microclouds 客户端程序 https://github.com/Fanqie22/Microclouds-Downloader
+
 5. 抛弃臃肿的 JSP , 使用 Thymeleaf 渲染视图 , Thymeleaf可完全替代 JSP .
 
 6. 借助webupload前端框架,配合后台实现大文件分片/断点上传,秒传,可暂停可取消,可查看上传进度
