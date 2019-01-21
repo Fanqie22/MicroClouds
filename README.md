@@ -20,7 +20,7 @@
 
 3. 启用 Redis 缓存常用数据 .
 
-4. 使用MongoDB GridFS 存储用户上传的文件 ,更高效合理 .
+4. 使用 MongoDB GridFS 存储用户上传的文件 ,  MongoDB GridFS 可以更好的存储大于16M的文件 .
 
 5. 启用 Netty 快速开发高性能、高可靠性的 microclouds 客户端程序 https://github.com/Fanqie22/Microclouds-Downloader
 
