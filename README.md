@@ -4,7 +4,7 @@
 
  版本正在升级 ! 旧代码功能有限 , 并且太臃肿了 , 数据库设计也不太合理 , 而且 AWS S3(一个文件存储服务) 的服务已经过期了 ,但是代码没移除 .
  
- 新版本将新增启用Spring Boot + Shiro + Redis + Thymeleaf + Bootstrap + MongoDB GridFS + Mybatis .
+ 新版本将新增启用Spring Boot + Shiro + Redis + Thymeleaf + Bootstrap + Mybatis .
  
  2018年12月19日开始更改,预计很快就完成更改 .
  
@@ -20,7 +20,7 @@
 
 3. 启用 Redis 缓存常用数据 .
 
-4. 使用 MongoDB GridFS 存储用户上传的文件 ,  MongoDB GridFS 可以更好的存储大于16M的文件 .
+4. 优化文件系统, 高效合理存储文件 .
 
 5. 启用 Netty 快速开发高性能、高可靠性的 microclouds 客户端程序 https://github.com/Fanqie22/Microclouds-Downloader
 
