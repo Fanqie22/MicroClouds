@@ -30,8 +30,8 @@ public class testOne {
         log.setLogtime("t354657687");
         log.setLogcontent("用户  上传了文件 : ");
         log.setUsermail("1393203396@qq.com");
-        System.out.println("log : 2  " );
+      
         int logs = mainService.logInsert(log);
-        System.out.println("log : " + logs + "  ---- >  " + log);
+        
     }
 }
